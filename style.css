@@ -28,7 +28,6 @@
     padding: 10px 20px;
     border-radius: 30px;
 }
-
 .hero{
     background-color: #E1F7FF;
     color: #3274cc;
@@ -70,4 +69,84 @@
 }
 .content-web{
     margin-top: 100px;
+}
+.container-2{
+    text-align: center;
+    padding: 50px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 80%; /* Atur lebar sesuai kebutuhan */
+    width: 800px;
+    height: 250px; 
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.left {
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    background-color: rgb(255, 255, 255);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left, .right {
+    margin: 0 50px; 
+}
+.left, .right, .center{
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.gambar {
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.teks {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.gambar-2 {
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.teks-2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.gambar-3 {
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.teks-3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
 }
